@@ -3,7 +3,7 @@
 /**
  * main - prints numbers
  *
- * Retrun: Always 0  (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	while (n < 10)
 	{
-		putchar((char)n);
+		putchar(n + '0');
 		n++;
 	}
 	putchar('\n');

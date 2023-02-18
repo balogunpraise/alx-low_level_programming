@@ -5,7 +5,7 @@
  * 
  * Return: Always 0 (Success)
  */
-int maid(void)
+int main(void)
 {
 	int n;
 	char alp;

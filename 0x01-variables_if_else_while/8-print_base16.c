@@ -2,7 +2,7 @@
 
 /**
  * main - print hexadecimal values
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 		putchar(n + '0');
 		n++;
 	}
-	while (alp <= 'e')
+	while (alp <= 'f')
 	{
 		putchar(alp);
 		alp++;

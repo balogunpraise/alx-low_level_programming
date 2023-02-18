@@ -21,8 +21,8 @@ int main(void)
 			putchar(n + '0');
 			putchar(',');
 			putchar(' ');
-			n++;
 		}
+		n++;
 	}
 	return (0);
 }

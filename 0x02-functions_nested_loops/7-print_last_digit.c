@@ -9,12 +9,14 @@ int print_last_digit(int n)
 {
 	int x;
 	int p;
+	int z;
 
+	z = INT_MIN;
 	if (n < 0)
 		x = -1 * n;
-	else if (n == INT_MIN || n > 0)
+	else if (n == z || n > 0)
 		x = n;
-	if(x == INT_MIN)
+	if(x == z)
 	{
 		p = -(x % 10)
 		_putchar(p + '0');

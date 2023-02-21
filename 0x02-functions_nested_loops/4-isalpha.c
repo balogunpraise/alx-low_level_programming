@@ -13,8 +13,8 @@ int _isalpha(int c)
 	char upper_first;
 	char lower_last;
 	char upper_last;
-	bool islower;
-	bool isupper;
+	bool islower = false;
+	bool isupper = false;
 
 	islower = c >= lower_first && c <= lower_last;
 	isupper = c >= upper_first && c <= upper_last;

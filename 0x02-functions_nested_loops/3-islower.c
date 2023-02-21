@@ -4,7 +4,7 @@
  * _islower - checks case
  * Description: 'returns zero or one'
  * @c: input value
- * Return 0 || 1
+ * Return: 0 || 1
  */
 int _islower(int c)
 {

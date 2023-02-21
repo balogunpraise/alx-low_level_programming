@@ -19,7 +19,7 @@ int print_last_digit(int n)
 		x = n;
 	if(x == z)
 	{
-		p = -(x % 10)
+		p = -(x % 10);
 		_putchar(p + '0');
 	}
 	else

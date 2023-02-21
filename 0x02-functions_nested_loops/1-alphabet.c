@@ -2,7 +2,10 @@
 
 /**
  * main - prints alphabets followed by a new line
- * Description: prints all the lower case alphabets
+ * 
+ * Description: 'prints the alphabets'
+ *
+ * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {

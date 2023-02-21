@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * main - prints to the screen
+ * main - prints alphabets followed by a new line
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char word[] = "_putchar";
+	char n;
 	int count;
 
-	count = 0;
-	while (count <= 8)
+	n = 'a';
+	while (n <= 'z')
 	{
-		_putchar(word[count]);
-		count++;
+		_putchar(n);
+		n++;
 	}
 	_putchar("\n");
 	return (0);

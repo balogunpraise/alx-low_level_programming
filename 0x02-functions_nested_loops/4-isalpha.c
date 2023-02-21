@@ -13,15 +13,15 @@ int _isalpha(int c)
 	char upper_first;
 	char lower_last;
 	char upper_last;
-	bool islower = false;
-	bool isupper = false;
+	bool islower;
+	bool isupper;
 
-	islower = c >= lower_first && c <= lower_last;
-	isupper = c >= upper_first && c <= upper_last;
 	lower_first = 'a';
 	upper_first = 'A';
 	lower_last = 'z';
 	upper_last = 'Z';
+	islower = c >= lower_first && c <= lower_last;
+	isuppet = c >= upper_first && c <= upper_last;
 	if (islower || isupper)
 		return (1);
 	else

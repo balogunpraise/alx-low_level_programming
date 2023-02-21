@@ -7,6 +7,14 @@
  */
 int main(void)
 {
-	_putchar("_putchar");
+	char word[] = "_putchar";
+	int count;
+
+	count = 0;
+	while (count <= 8)
+	{
+		_putchar(word[count]);
+		count++;
+	}
 	return (0);
 }

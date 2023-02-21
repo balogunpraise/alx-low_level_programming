@@ -8,9 +8,9 @@
 int print_last_digit(int n)
 {
 	int x;
-        int p;
+	int p;
 
-	if(n < 0)
+	if (n < 0)
 		x = -1 * n;
 	else
 		x = n;

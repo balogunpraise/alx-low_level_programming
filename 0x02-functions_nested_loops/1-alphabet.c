@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - prints alphabets followed by a new line
- * 
+ * print_alphabet - prints alphabets followed by a new line
  * Description: 'prints the alphabets'
- *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succees)
  */
 void print_alphabet(void)
 {

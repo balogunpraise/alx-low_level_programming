@@ -17,7 +17,9 @@ int print_last_digit(int n)
 		x = -1 * n;
 	else if (n == z || n > 0)
 		x = n;
-	if(x == z)
+	else
+		x = n;
+	if (x == z)
 	{
 		p = -(x % 10);
 		_putchar(p + '0');

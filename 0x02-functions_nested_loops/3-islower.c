@@ -3,6 +3,8 @@
 /**
  * _islower - checks case
  * Description: 'returns zero or one'
+ * @c: input value
+ * Return 0 || 1
  */
 int _islower(int c)
 {
@@ -11,7 +13,7 @@ int _islower(int c)
 
 	first = 'a';
 	last = 'z';
-	if (c >= first || c <= last)
+	if (c >= first && c <= last)
 	{
 		return (1);
 	}

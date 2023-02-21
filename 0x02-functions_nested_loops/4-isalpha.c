@@ -21,7 +21,7 @@ int _isalpha(int c)
 	lower_last = 'z';
 	upper_last = 'Z';
 	islower = c >= lower_first && c <= lower_last;
-	isuppet = c >= upper_first && c <= upper_last;
+	isupper = c >= upper_first && c <= upper_last;
 	if (islower || isupper)
 		return (1);
 	else

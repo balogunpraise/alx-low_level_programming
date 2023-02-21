@@ -3,7 +3,6 @@
 /**
  * _islower - checks case
  * Description: 'returns zero or one'
- * Return: 0 || 1
  */
 int _islower(int c)
 {

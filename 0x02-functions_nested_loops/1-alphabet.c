@@ -3,7 +3,6 @@
 /**
  * main - prints alphabets followed by a new line
  *
- * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {

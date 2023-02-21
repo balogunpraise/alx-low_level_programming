@@ -8,7 +8,6 @@
 int main(void)
 {
 	char n;
-	int count;
 
 	n = 'a';
 	while (n <= 'z')
@@ -16,6 +15,6 @@ int main(void)
 		_putchar(n);
 		n++;
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }

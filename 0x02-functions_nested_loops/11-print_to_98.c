@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  * print_to_98 - prints the given value to ninety eight
@@ -29,7 +29,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-		for (count = n; count >= 98; coun--)
+		for (count = n; count >= 98; count--)
 		{
 			_putchar((count / 10) + '0');
 			_putchar((count % 10) + '0');

@@ -1,4 +1,6 @@
 #include "main.h"
+#include <holberton.h>
+#include <stdio.h>
 
 /**
  * print_to_98 - prints the given value to ninety eight
@@ -7,37 +9,26 @@
  */
 void print_to_98(int n)
 {
-	int count;
-
 	if (n < 98)
 	{
-		for (count = n; count <= 98; count++)
+		while (n <= 98)
 		{
-			if (count < 10)
-				_putchar(count + '0');
+			if (n != 98)
+				printf("%d, ", n);
 			else
-			{
-				_putchar((count / 10) + '0');
-				_putchar((count % 10) + '0');
-			}
-			if (count != 98)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
+				printf("%d", n);
+			n++;
 		}
 	}
 	else
 	{
-		for (count = n; count >= 98; count--)
+		while (n >= 98)
 		{
-			_putchar((count / 10) + '0');
-			_putchar((count % 10) + '0');
-			if (count != 98)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
+			if (n != 98)
+				printf("%d, ", n);
+			else
+				printf("%d", n);
+			n--;
 		}
 	}
 }

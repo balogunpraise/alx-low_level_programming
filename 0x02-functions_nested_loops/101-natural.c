@@ -10,6 +10,7 @@ int main(void)
 	int sum;
 
 	n = 1024;
+	sume = 0;
 	while (n < 1024)
 	{
 		if (n % 3 == 0 || n % 5 == 0)

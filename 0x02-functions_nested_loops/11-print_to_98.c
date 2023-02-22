@@ -1,6 +1,5 @@
 #include "main.h"
-#include <holberton.h>
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * print_to_98 - prints the given value to ninety eight
@@ -13,7 +12,7 @@ void print_to_98(int n)
 	{
 		while (n <= 98)
 		{
-			if (n != 98)
+			if  (n != 98)
 				printf("%d, ", n);
 			else
 				printf("%d", n);
@@ -29,6 +28,6 @@ void print_to_98(int n)
 			else
 				printf("%d", n);
 			n--;
-		}
+		}	
 	}
 }

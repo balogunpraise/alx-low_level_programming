@@ -1,7 +1,6 @@
 #ifndef MAIN.H
 #define MAIN.H
-
 int _putchar(char c);
-int isupper(int c);
+int _isupper(int c);
 
 #endif

@@ -6,7 +6,7 @@
  * @b: input2
  * Return: product of the two inputs
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }

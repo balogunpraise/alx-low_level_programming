@@ -3,14 +3,11 @@
 /**
  * _isupper - checks if a letter is upper
  * @c: value
- * Return: 0 || 1
+ * Return: 1 if c is uppercase and 0 if c is lowercase
  */
 int _isupper(int c)
 {
-	char first;
-	char last;
-
-	if ((c >= first) && (c <= last))
+	if ((c >= 'A') && (c <= 'Z'))
 		return (1);
 	else
 		return (0);

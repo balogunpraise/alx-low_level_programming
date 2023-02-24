@@ -10,7 +10,7 @@ int _isupper(int c)
 	char first;
 	char last;
 
-	if (c >= first && c <= last)
+	if ((c >= first) && (c <= last))
 		return (1);
 	else
 		return (0);

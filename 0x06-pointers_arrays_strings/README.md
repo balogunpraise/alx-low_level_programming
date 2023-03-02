@@ -1,0 +1,1 @@
+learning strings and pinters

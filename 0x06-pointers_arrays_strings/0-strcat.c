@@ -2,9 +2,9 @@
 
 /**
  * _strcat - a function that concatenates two strings
- * @dest: copy to
- * @src: copy from
- * Return: two concat strings
+ * @dest: to
+ * @src: from
+ * Return: concat strings
  */
 char *_strcat(char *dest, char *src)
 {
@@ -18,6 +18,6 @@ char *_strcat(char *dest, char *src)
         	src++;
         	dest++;
     	}
-	return dest;
+	return *dest;
 }
 

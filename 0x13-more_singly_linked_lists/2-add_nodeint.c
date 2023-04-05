@@ -2,12 +2,12 @@
 /**
  * add_nodeint - start point to add nodes
  * @head: head
- * @n: value
+ * @n: input
  * Return: 0
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint *combo;
+	listint_t *combo;
 
 	if (head == NULL)
 		return (NULL);
